@@ -466,7 +466,9 @@ boolean findID( byte find[] ) {
       return true;
       break;  // Stop looking we found it
     }
-    else {    // If not, return false
+    else {             
+      return false;
+      break;
     }
   }
   return false;
